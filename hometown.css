@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.heading-container {
+  margin-top: 0;
+  background-image: url(https://images.unsplash.com/flagged/photo-1575555201693-7cd442b8023f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+  background-size: cover;
+  padding: 10px 0 40px 0;
+  height: 934px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 300px;
+}
+
+.la-font {
+  text-align: start;
+  margin: 50px;
+  text-shadow: -1px 1px 10px #ebdabd;
+}
+
+.body-container {
+  background-color: #ebdabd;
+  display: flex;
+  padding: 60px 20px;
+  justify-content: space-around;
+}
+
+.dodgers,
+.museum,
+.griffith {
+  margin: 0 10px;
+  max-width: 40%;
+  width: 33%;
+}
+
+.dodgers,
+.museum,
+.griffith,
+h2,
+p {
+  text-align: center;
+  font-size: larger;
+}
+
+.dodger-img,
+.museum-img,
+.griffith-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.guide-container {
+  height: 350px;
+  padding-top: 100px;
+  background-color: #ccc8c4;
+}
+
+.profile-container {
+  margin: auto;
+  padding: 10px;
+  width: 650px;
+  height: 250px;
+  background-color: #ccc8c4;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.profile-img {
+  width: 300px;
+}
+.profile-attributes {
+  font-size: larger;
+}
